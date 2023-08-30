@@ -10,7 +10,7 @@ function StartTimer() {
   // date = date.now();
   secondsT.value = date.getSeconds();
   minutesT.value = date.getMinutes();
-  var temp = date.getHours;
+  var temp = date.getHours();
   if (temp > 12) {
     hoursT.value = temp - 12;
     PmAm.innerHTML = "Pm";
